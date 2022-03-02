@@ -8,7 +8,6 @@
         public decimal Price { get; set; }
         public int MakeId { get; set; }
         public Make Make { get; set; }
-
         public ICollection<Dealer> Dealers { get; set; }
     }
 }
